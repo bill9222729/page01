@@ -1,0 +1,135 @@
+@media screen and (max-width: 480px) {
+}
+
+/* 首頁Banner */
+.index-section1 {
+  background-image: url(./images/main-block/main-bg.jpeg);
+  padding: 80px 0px;
+  background-repeat: no-repeat;
+  /* 圖片滿版 */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+}
+
+.index-section1::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.471);
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+.index-section1 img {
+  width: 800px;
+  padding-top: 100px;
+  z-index: 1;
+  padding-bottom: 100px;
+}
+
+/* 房型內部區塊 */
+.index-section2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* 特色區塊 */
+.index-section3 {
+  padding: 80px 80px;
+  background-color: #9c8135;
+  position: relative;
+  top: auto;
+  justify-content: center;
+}
+.index-section3 h2 {
+  text-align: center;
+}
+
+.index-section3 p {
+  justify-content: center;
+  top: auto;
+  line-height: 20px;
+}
+
+.index-section3 img {
+  height: 100%;
+}
+
+.text-area {
+  background-color: #9c8135;
+  padding: 80px 0px;
+  background-image: no-repeat;
+  /* 圖片滿版 */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+}
+
+/* 基本設施與設備區塊 */
+.index-section4 h2 {
+  color: #9c8135;
+  padding-bottom: 20px;
+}
+.index-section4 {
+  background-color: white;
+  color: rgb(5, 5, 5);
+  padding: 40px 0px;
+}
+
+.index-section4::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.377);
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+.index-section5 {
+  background-image: url(./images/notice/no01.jpg);
+  /* 圖片滿版 */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+  color: white;
+}
+
+.index-section5 .ul {
+  color: black;
+}
+
+/* Carousel */
+.carousel {
+  width: auto;
+}
+
+
+.carousel-item img{
+  object-fit: cover;
+  height: 700px;
+}
+
+/* footer */
+.footer img {
+  height: 50px;
+  left: 0;
+}
+
+.footer {
+  clear: both;
+  background-color: #9c8135;
+  text-align: center;
+}
+
+.footer li {
+  list-style: none;
+  margin-right: 20px;
+}
